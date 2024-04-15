@@ -22,13 +22,16 @@
         <button type="button" class="nav_button" onclick="location.href = 'page_3.html'">Contact us</button>
     </nav>
     <main>
+        <a id="top"></a>
+        <a href="#bottom">to the bottom</a>
         <h3>Keyboards</h3>
+        <section>
         <pre>
-The table down below is of people waiting for a Keyboard, 
-You can take a look at what styles they want, 
-colours they asked, sizes and any other modifications they wanted.
+    The table down below is of people waiting for a Keyboard, 
+    You can take a look at what styles they want, 
+    colours they asked, sizes and any other modifications they wanted.
         </pre>
-        <table border="1" style="border-collapse: collapse; background-color: rgb(160, 248, 207); width:fit-content;  border-radius: 5px;">
+        <table border="1">
             <tr>
                 <th>Name</th>
                 <th>Style</th>
@@ -40,27 +43,67 @@ colours they asked, sizes and any other modifications they wanted.
                 <td>Person A</td>
                 <td>Cute and Animal Crossing-like</td>
                 <td>Sage green, Baby blue or Purple</td>
-                <td>
-                75% Keyboard or 70% Keyboard, 
-                asked for function keys and arrow keys
-                </td>
+                <td>75% Keyboard or 70% Keyboard, asked for function keys and arrow keys</td>
                 <td>Silent thoccy sound and volume button</td>
             </tr>
             <tr>
                 <td>Person N</td>
                 <td>Nice to look at and aesthetic</td>
                 <td>Colours that match PC</td>
-                <td>
-                No mention
-                </td>
+                <td>No mention</td>
                 <td>No mention</td>
             </tr>
+            <tr>
+                <td>Person L</td>
+                <td>Cats, Paws</td>
+                <td>Pastels, Pink</td>
+                <td>Full Keyboard</td>
+                <td>No mention</td>
+            </tr>
+            <tr>
+                <td>Person I</td>
+                <td>Space or Galaxy</td>
+                <td>Metallic looks or deep purple</td>
+                <td>65% or 60% Keyboard, asked for arrow Keys</td>
+                <td>Thoccy sound and deep tones</td>
+            </tr>
         </table>
+        <h3>Commission a Keyboard down below</h3>
+            <article id="commission-form-contact">
+                <figure id="twoKeycap">
+                    <img src="images/twoKeycap.jpg" alt="Two different Key caps on a Keyboard" style="max-width: 30%; height:auto; border: 2px solid rgba(197, 154, 102, 0.699); border-radius: 2px; float: right;">
+                </figure>
+                <form action="http://foo.com" method="get">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="fname" placeholder="Last Name"><br>
+                    <label for="switch_type">What switch type would you like?</label><br>
+                    <input type="radio" id="linear" name="switch_type" value="linear">
+                    <label for="linear">Linear</label><br>
+                    <input type="radio" id="tactile" name="switch_type" value="tactile">
+                    <label for="tactile">Tactile</label><br>
+                    <input type="radio" id="clicky" name="switch_type" value="clicky">
+                    <label for="clicky">Clicky</label><br>
+                    <label for="keebstyle">What style would you like your keyboard to be?</label><br>
+                    <textarea name="keebcolours" id="keebstyle" cols="25" rows="5"></textarea><br>
+                    <input type="submit" value="Submit">
+                    <br>
+                </form>
+            </article>
+        </section>
     </main>
     <script src="js&css/code.js"></script>
 </section>
     <footer>
-        <center><p>&copy;Keeb Yours 2024</p></center>
+        <button type="button" class="nav_button" onclick="location.href = 'index.html'">Homepage</button>
+        <button type="button" class="nav_button" onclick="location.href = 'page_1.html'">Keyboards</button>
+        <button type="button" class="nav_button" onclick="location.href = 'page_2.html'">Commissions</button>
+        <button type="button" class="nav_button" onclick="location.href = 'page_3.html'">Contact us</button>
+        <br>
+        <a id="bottom"></a><br>
+        <a href="#top">to the top</a>
+        <center><p>Copyright&copy; 2024</p></center>
     </footer>
     </body>
 </html> 
