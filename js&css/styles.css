@@ -1,15 +1,23 @@
+
 body{
     background-color: rgb(182, 232, 245);
     font-family: Verdana, sans-serif;
 }
 
-h1, h2 {
+h1{
+    color: rgb(93, 231, 255);
+    text-align: center;
+    float: right;
+}
+
+h2{
     color: rgb(44, 171, 245);
     text-align: center;
 }
 
 h3{
     color: rgb(44, 171, 245);
+    text-align: center;
 }
 
 .collapsible{
@@ -33,14 +41,17 @@ h3{
     background-color: rgb(233, 223, 218);
     border-radius: 2px;
     max-height: 0;
-    width: 89%;
+    width: 85%;
     overflow: hidden;
     transition: max-height 0.35s ease-out;
 }
 
 header{
+    background: url("../images/keyboardset.jpg") no-repeat center bottom/cover;
+    height: 18vh;
     margin: 10px;
     padding: 10px;
+    border-radius: 2px;
 } 
 
 header img{
@@ -49,26 +60,52 @@ header img{
     float: left;
 }
 
+header h1 {
+    background-color: azure;
+    padding: 10px;
+    border: 2px solid  rgb(93, 231, 255);
+    border-width: 5px;
+    border-radius: 5px;
+}
+
 main{
     padding: 10px;
     margin: 10px;
+    text-align: left;
     background-color:rgb(255, 255, 255);
-    border: 1px solid rgba(90, 26, 87, 0.25);
+    border: 2px solid rgba(90, 26, 87, 0.25);
     border-radius: 2px;
 }
+
 main #keyboardImage{
     margin: 10px;
 }
 
+main section{
+    border: 2px solid rgba(238, 163, 77, 0.315);
+    border-radius: 2px;
+}
+
+#commission-form{
+    border: 2px solid rgba(180, 125, 61, 0.315);
+    padding: 10px;
+    margin: 10px;
+}
+
 aside{
-    width: 350px;
-    height: max-content;   
+    width: 4fr;
+    height: fit-content;
     background-color:rgb(255, 255, 255);         
-    border: 1px solid rgba(90, 26, 87, 0.25);
+    border: 2px solid rgba(90, 26, 87, 0.25);
     border-radius: 2px;
     padding: 10px;
     margin: 10px;
     float: left;
+}
+
+.grid-container2{
+    padding: 10px;
+    margin: 10px;
 }
 
 .grid-container{
@@ -99,15 +136,15 @@ nav{
     padding: 10px;
     margin: 10px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(90, 26, 87, 0.25);
+    border: 2px solid rgba(90, 26, 87, 0.25);
     border-radius: 2px;
     font-family: Verdana, sans-serif;
     font-size: small;
     color:  rgb(97, 69, 32);
-    gap: 5px;
+    gap: 8px;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 .nav_button{
@@ -120,6 +157,19 @@ nav{
 }
 .active, .nav_button:hover{
     background-color: rgb(250, 232, 186);
+}
+
+.footer_button{
+    padding: 10px;
+    background-color: rgb(255, 240, 211);
+    border: 1px solid rgb(233, 198, 146);
+    font-family: Verdana, sans-serif;
+    border-radius: 50px;
+    font-style: bold;
+}
+
+.active, .footer_button:hover{
+    background-color:  rgb(250, 232, 186);;
 }
 
 pre{
@@ -136,13 +186,43 @@ output{
     display: inline;
 }
 
+table {
+    border-collapse: collapse; 
+    background-color: rgb(162, 231, 248);
+    width:fit-content;  border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
 table tr th{
+    color: rgb(99, 66, 26);
     padding: 10px;
     margin: 10px;
 }
 
 table tr td{
+    color: rgb(99,66,26);
     padding: 10px;
     margin: 10px;
 }
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
+
+#completedKeyboard{
+    margin-bottom: -60px;
+    margin-top: -60px;
+    
+}
+
+#googlemap{
+    margin-left: 400px;
+}
+
+
+
+
+
 
